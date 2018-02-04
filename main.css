@@ -200,7 +200,7 @@ li {
         width: 345px;
       }
 
-/* Smartphones----------- */
+/* Smartphones------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
 #map, #weather-box, #events-box, #food-box {
    width: 85%;
