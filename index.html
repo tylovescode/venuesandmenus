@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <title>Venues and Menus</title>
+  </head>
+<body>
+    <header id="header" role="banner">
+        <div id="logo"><img src="http://tymiller.net/images/VM2white.png" alt="Venues and Menus logo"></div>
+        <div id="search-box">
+            <input id="pac-input" class="controls" type="text" placeholder="Enter a destination"><span id="another"></span>
+        </div>
+    </header>
+        
+<main role="main">
+  <div class="background-image">
+      <div id="description">
+        <p id="description-box">Are you traveling to a destination you've never been to before? Or maybe making another trip to a previously visited destination? Looking for something to do or a great place to eat? Use Venues and Menus to discover events and top rated restaurants near your destination. Enter a destination to get started!</p>
+    </div>
+  </div>
+    <div id="map-box">
+        <div id="map"></div>
+        <div id="weather-box">
+            <div id="weather"></div>
+            <div id="forecast"></div>
+        </div>    
+    </div>
+        
+    <div id="content-box">
+            <div id="events-box">
+                <div id="going-on"></div>
+                <div id="events"></div>
+            </div>
+            <div id="food-box">
+                <div id="food-list"></div>
+                <div id="food"></div>
+            </div>
+    </div>
+</main>   
+    <footer class="footer" role="contentinfo">
+        <ul>
+            <li><a href="#"><img src="http://tymiller.net/images/email25.png" alt="Email"></a></li>
+            <li><a href="#"><img src="http://tymiller.net/images/fb25.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="http://tymiller.net/images/ig25.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="http://tymiller.net/images/tw25.png" alt="Twitter"></a></li>
+        </ul>
+    </footer>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="jquery.simpleWeather.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH_pRy_fW1a9iKvqErE8E5Cj8Iq540w5U&libraries=places&callback=initAutocomplete"
+         async defer></script>
+    <script src="index.js"></script>
+  </body>
+</html>
